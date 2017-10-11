@@ -1,25 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * this is the first practice of Cpp algorithm on hackerrank
+ * this practice is just make you know that how cpp run
  */
 
-/* 
- * File:   main.cpp
- * Author: User
- *
- * Created on 2017年10月11日, 下午 11:36
- */
-
-#include <cstdlib>
-
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
-/*
- * 
- */
-int main(int argc, char** argv) {
 
-    return 0;
+int solveMeFirst(int a, int b) {
+ // Hint: Type return a+b; below:
+    return a+b;
 }
-
+int main() {
+  int num1, num2;
+  int sum;
+  cin>>num1>>num2;
+  sum = solveMeFirst(num1,num2);
+  cout<<sum;
+  return 0;
+}
