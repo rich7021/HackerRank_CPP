@@ -1,3 +1,6 @@
+#include "ExcutionDefine.h"
+#ifdef RUN_SOLVE_ME_FIRST
+
 /**
  * this is the first practice of Cpp algorithm on hackerrank
  * this practice is just make you know that how cpp run
@@ -10,11 +13,11 @@
 #include <algorithm>
 using namespace std;
 
-
 int solveMeFirst(int a, int b) {
  // Hint: Type return a+b; below:
     return a+b;
 }
+
 int main() {
   int num1, num2;
   int sum;
@@ -23,3 +26,6 @@ int main() {
   cout<<sum;
   return 0;
 }
+
+
+#endif
