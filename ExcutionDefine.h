@@ -18,6 +18,7 @@
 
 #endif /* EXCUTIONDEFINE_H */
 
-#define RUN_SOLVE_ME_FIRST
+//#define RUN_SOLVE_ME_FIRST
 //#define RUN_A_VERY_BIG_SUM
+#define RUN_DIAGNOL_DIFFERENCE
 
