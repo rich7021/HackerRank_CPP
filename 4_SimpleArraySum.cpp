@@ -7,7 +7,11 @@
 using namespace std;
 
 int simpleArraySum(int n, vector <int> ar) {
-    // Complete this function
+    int sum = 0;
+    for (int i = 0 ; i < n ; i++) {
+        sum += ar[i];
+    }
+    return sum;
 }
 
 int main() {
@@ -21,3 +25,5 @@ int main() {
     cout << result << endl;
     return 0;
 }
+
+#endif
