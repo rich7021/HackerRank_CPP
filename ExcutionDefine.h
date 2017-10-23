@@ -22,4 +22,5 @@
 //#define RUN_A_VERY_BIG_SUM
 //#define RUN_DIAGNOL_DIFFERENCE
 //#define RUN_SIMPLE_ARRAY_SUM
-#define RUN_PLUS_MINUS
+//#define RUN_PLUS_MINUS
+#define RUN_STAIRCASE
