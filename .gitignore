@@ -3,3 +3,4 @@ Makefile
 build/
 dist/
 .dep.inc
+practice_cpp.exe.stackdump
