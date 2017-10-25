@@ -1,35 +1,12 @@
 #include "ExcutionDefine.h"
 #ifdef RUN_APPLE_AND_ORNAGE
 
-#include <map>
-#include <set>
-#include <list>
-#include <cmath>
-#include <ctime>
-#include <deque>
-#include <queue>
-#include <stack>
-#include <string>
-#include <bitset>
-#include <cstdio>
-#include <limits>
-#include <vector>
-#include <climits>
-#include <cstring>
-#include <cstdlib>
-#include <fstream>
-#include <numeric>
-#include <sstream>
 #include <iostream>
-#include <algorithm>
-#include <unordered_map>
-
 using namespace std;
 
 int countItem(int d, int pivot, int start, int end) {
     int pos;
     pos = d + pivot;
-    cout << "d=" << d << " pivot=" << pivot << " result=" << pos << endl;
     if (start <= pos && pos <= end) {
         return 1;
     }
@@ -49,14 +26,11 @@ int main() {
     int m;
     int n;
     cin >> m >> n;
-    cout << endl;
     
     for (int apple_i = 0; apple_i < m; apple_i++) {
         int d;
         cin >> d;
-        cout << "Apple: " << apple << " > ";
         apple += countItem(d, a, s, t);
-        cout << apple << endl;
     }
     
 
