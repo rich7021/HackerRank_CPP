@@ -31,4 +31,8 @@
 
 //implementation
 //#define RUN_GRADING_STUDENTS
-#define RUN_APPLE_AND_ORNAGE
+//#define RUN_APPLE_AND_ORNAGE
+
+
+//Strings
+#define RUN_SUPER_REDUCED_STRING
